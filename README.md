@@ -8,7 +8,8 @@ cd catkin_ws \
 catkin_make \
 cd src \
 git clone  .. \
+修改main.cpp中图像的路径 \
 cd .. \
 catkin_make \
 source devel/setup.bash \
-rosrun 
+rosrun feature_matching feature_matching
